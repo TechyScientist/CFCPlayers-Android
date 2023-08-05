@@ -87,7 +87,14 @@ class MainActivity : AppCompatActivity() {
         })
 
         binding.lvPlayerList.adapter = PlayerListAdapter(this)
-
+        binding.lvPlayerList.onItemClickListener =
+            AdapterView.OnItemClickListener { _, _, position, _ ->
+                if(players.isNotEmpty()) {
+                    val intent = Intent(this, PlayerDetailsActivity::class.java)
+                    intent.putExtra("profile", players[position])
+                    startActivity(intent)
+                }
+            }
     }
 
     fun onSearchClicked(view: View) {
