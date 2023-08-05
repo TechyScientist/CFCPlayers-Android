@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">CFC Players</string>
+    <string name="PlayerSearch">Player Search</string>
+    <string name="SearchLabel">Search:</string>
+    <string name="Search">Search</string>
+    <string name="SearchCriteria">Search Criteria</string>
+    <string name="CFCID">CFC ID</string>
+    <string name="LastName">Last Name</string>
+    <string name="FirstName">First Name</string>
 </resources>
