@@ -26,6 +26,8 @@
         <activity
             android:name=".PlayerDetailsActivity"
             android:exported="false"/>
+        <activity android:name=".ViewPlayerWebProfileActivity"
+            android:exported="false"/>
     </application>
 
 </manifest>
