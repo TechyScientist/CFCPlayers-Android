@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="CFCRed">#FF8A0000</color>
+    <color name="AllGoodGreen">#FF008F51</color>
+    <color name="HyperlinkBlue">#FF0096FF</color>
 </resources>
