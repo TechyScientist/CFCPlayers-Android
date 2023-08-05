@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Joueurs FCÉ</string>
+    <string name="PlayerSearch">Cherche des Joueurs</string>
+    <string name="SearchLabel">Cherchez:</string>
+    <string name="Search">Cherchez</string>
+    <string name="SearchCriteria">Critères de Cherche</string>
+    <string name="CFCID">ID FCÉ</string>
+    <string name="LastName">Nom de Famille</string>
+    <string name="FirstName">Prénom</string>
+
+</resources>
