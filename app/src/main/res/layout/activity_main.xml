@@ -78,6 +78,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
+        android:divider="@color/CFCRed"
+        android:dividerHeight="1dp"
         android:id="@+id/lvPlayerList" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
