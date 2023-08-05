@@ -8,5 +8,8 @@
     <string name="CFCID">ID FCÉ</string>
     <string name="LastName">Nom de Famille</string>
     <string name="FirstName">Prénom</string>
-
+    <string name="noPlayers">Aucun Joueurs Trouvé</string>
+    <string name="dismiss">Fermer</string>
+    <string name="searchErrorTitle">Critères de Cherche Manquants</string>
+    <string name="searchError">Entrez quelques critères pour chercher, s\'il vous plaît.</string>
 </resources>
