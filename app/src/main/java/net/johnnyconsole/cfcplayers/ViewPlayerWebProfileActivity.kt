@@ -19,7 +19,7 @@ class ViewPlayerWebProfileActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val profile = intent.getStringExtra("profile")!!
-        supportActionBar!!.title = getString(R.string.webProfileTitle, profile)
+        binding.title.text = getString(R.string.webProfileTitle, profile)
 
         val url = intent.getStringExtra("url")!!
         binding.webView.settings.javaScriptEnabled = true
