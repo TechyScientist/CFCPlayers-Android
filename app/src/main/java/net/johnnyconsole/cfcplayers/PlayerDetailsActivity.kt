@@ -22,7 +22,7 @@ class PlayerDetailsActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         player = intent.getSerializableExtra("profile") as Player
-        supportActionBar!!.title = getString(R.string.PlayerDetails, player.cfcId, player.name)
+        binding.title.text = getString(R.string.PlayerDetails, player.cfcId, player.name)
 
         binding.cfcID.text = getString(R.string.placeholderInt, player.cfcId)
         binding.name.text = getString(R.string.placeholderString, player.name)
