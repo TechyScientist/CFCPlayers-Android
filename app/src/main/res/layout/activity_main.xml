@@ -8,6 +8,22 @@
     android:gravity="center_horizontal"
     tools:context=".MainActivity">
 
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="?attr/colorPrimary"
+        android:gravity="bottom">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/PlayerSearch"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:layout_marginBottom="30dp"/>
+
+    </Toolbar>
+
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
